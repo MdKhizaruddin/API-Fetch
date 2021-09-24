@@ -5,7 +5,7 @@ import "./ApiCard.css"
 const ApiCard = ({ item }) => {
   return (
     <div>
-      <Card style={{ width: "300px" }} md={4} className="card">
+      <Card style={{ width: "250px", height: "350px" }} md={4} className="card">
         <img src={item.avatar} alt="empimage" style={{ width: "200px" }} />
         <h3>
           
